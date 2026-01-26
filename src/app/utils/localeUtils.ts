@@ -20,5 +20,5 @@ export const isChineseLocale = (locale: string): boolean => {
  */
 export const getDocUrl = (path: string, locale: string): string => {
   const langPrefix = isChineseLocale(locale) ? "" : "en/";
-  return `https://docs.newzone.top/${langPrefix}${path}`;
+  return `https://subtitletranslate.us.cc/${langPrefix}${path}`;
 };
