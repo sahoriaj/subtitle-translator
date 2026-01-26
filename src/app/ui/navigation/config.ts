@@ -10,7 +10,7 @@
  * Social links configuration
  */
 export const SOCIAL_LINKS = {
-  discord: "https://discord.gg/PZTQfJ4GjX",
-  telegram: "https://t.me/aishort_top",
-  qq: "https://qm.qq.com/q/qvephMO8q4",
+  discord: "https://discord.gg/u3CTBDHffV",
+  telegram: "https://t.me/novadonghua",
+  qq: "https://toolhost.us.cc",
 } as const;
