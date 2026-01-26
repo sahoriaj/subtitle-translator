@@ -15,7 +15,7 @@
 
 **Subtitle Translator** 是一款批量字幕翻译工具，支持 `.srt`、`.ass`、`.vtt`、`.lrc` 等格式。通过**多种翻译接口（API + AI 大模型）**，可将字幕文件**快速翻译成 50+ 种语言**，并支持**多语言同时翻译**，满足国际化需求。
 
-👉 **在线体验**：<https://tools.newzone.top/zh/subtitle-translator>
+👉 **在线体验**：<https://subtitletranslate.us.cc/en>
 
 ## 核心特性
 
@@ -73,17 +73,11 @@ _上下文关联翻译_（仅限 AI 模型）会将字幕分批发送给大模�
 
 - **批量模式**（默认）：同时处理上百文件，结果自动下载。
 - **单文件模式**：快速翻译并即时预览，每次上传覆盖上一个文件。
-
-## 文档与部署
-
-详细配置、API 设置和自托管说明，请参阅 **[官方文档](https://docs.newzone.top/guide/translation/subtitle-translator/)**。
-
-**快速部署**：[部署指南](https://docs.newzone.top/guide/translation/subtitle-translator/deploy.html)
-
+- 
 ## 参与贡献
 
 欢迎通过 Issue 或 Pull Request 参与贡献！
 
 ## 许可协议
 
-MIT © 2025 [rockbenben](https://github.com/rockbenben)。详见 [LICENSE](./LICENSE)。
+MIT © 2025 [Webnovadonghua](https://subtitletranslate.us.cc/en)。详见 [LICENSE](./LICENSE)。
