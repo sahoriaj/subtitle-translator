@@ -166,7 +166,7 @@ export const useAppMenu = () => {
       return null;
     }
     return {
-      label: <Link href={`https://tools.newzone.top/${locale}/${project.key}`}>{project.onlyzh && locale === "zh" ? project.titleKey : t(project.titleKey)}</Link>,
+      label: <Link href={`https://subtitletranslate.us.cc/${locale}/${project.key}`}>{project.onlyzh && locale === "zh" ? project.titleKey : t(project.titleKey)}</Link>,
       key: project.key,
       icon: project.icon,
     };
@@ -179,7 +179,7 @@ export const useAppMenu = () => {
   const otherToolsItems = [
     {
       label: (
-        <a href={isChineseLocale ? "https://www.aishort.top/" : `https://www.aishort.top/${locale}`} target="_blank" rel="noopener noreferrer">
+        <a href={isChineseLocale ? "https://subtitletranslate.us.cc/" : `https://subtitletranslate.us.cc/${locale}`} target="_blank" rel="noopener noreferrer">
           ChatGPT Shortcut
         </a>
       ),
@@ -188,7 +188,7 @@ export const useAppMenu = () => {
     },
     {
       label: (
-        <a href={`http://chat.newzone.top/?lang=${isChineseLocale ? "zh" : "en"}`} target="_blank" rel="noopener noreferrer">
+        <a href={`https://subtitletranslate.us.cc/?lang=${isChineseLocale ? "zh" : "en"}`} target="_blank" rel="noopener noreferrer">
           ChatBox
         </a>
       ),
@@ -197,7 +197,7 @@ export const useAppMenu = () => {
     },
     {
       label: (
-        <a href={`https://prompt.newzone.top/app/${locale}`} target="_blank" rel="noopener noreferrer">
+        <a href={`https://subtitletranslate.us.cc/app/${locale}`} target="_blank" rel="noopener noreferrer">
           IMGPrompt
         </a>
       ),
@@ -209,7 +209,7 @@ export const useAppMenu = () => {
   if (isChineseLocale) {
     otherToolsItems.push({
       label: (
-        <a href="https://newzone.top/" target="_blank" rel="noopener noreferrer">
+        <a href="https://subtitletranslate.us.cc/" target="_blank" rel="noopener noreferrer">
           LearnData 开源笔记
         </a>
       ),
@@ -254,7 +254,7 @@ export const useAppMenu = () => {
       children: otherToolsItems,
     },
     {
-      label: <Link href={`https://tools.newzone.top/${locale}/feedback`}>{t("feedback.feedback1")}</Link>,
+      label: <Link href={`https://subtitletranslate.us.cc/en/${locale}/feedback`}>{t("feedback.feedback1")}</Link>,
       key: "feedback",
     },
   ];
