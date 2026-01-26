@@ -10,12 +10,12 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
-  <a href="https://tools.newzone.top/en/subtitle-translator"><img src="https://img.shields.io/badge/Live%20Demo-subtitle--translator-blue" alt="Live Demo"></a>
+  <a href="https://subtitletranslate.us.cc"><img src="https://img.shields.io/badge/Live%20Demo-subtitle--translator-blue" alt="Live Demo"></a>
 </p>
 
 **Subtitle Translator** is a batch subtitle translation tool supporting `.srt`, `.ass`, `.vtt`, and `.lrc` formats. With **real-time translation speeds**, it leverages multiple **translation APIs and AI models** to quickly translate subtitle files into **50+ languages**, including the ability to **translate a single file into multiple languages at once** for global accessibility.
 
-👉 **Try it online**: <https://tools.newzone.top/en/subtitle-translator>
+👉 **Try it online**: <https://subtitletranslate.us.cc>
 
 ## Key Features
 
@@ -74,16 +74,10 @@ Two key parameters control this process:
 - **Batch Mode (Default)**: Process hundreds of files simultaneously; results auto-download.
 - **Single-File Mode**: Quick translation with instant preview; each upload replaces the previous.
 
-## Documentation & Deployment
-
-For detailed configuration, API setup, and self-hosting instructions, see the **[Official Documentation](https://docs.newzone.top/en/guide/translation/subtitle-translator/)**.
-
-**Quick Deployment**: [Deploy Guide](https://docs.newzone.top/en/guide/translation/subtitle-translator/deploy.html)
-
 ## Contributing
 
 Contributions are welcome! Feel free to open issues and pull requests.
 
 ## License
 
-MIT © 2025 [rockbenben](https://github.com/rockbenben). See [LICENSE](./LICENSE).
+MIT © 2026 [novadonghua](https://github.com/sahoriaj). See [LICENSE](./LICENSE).
