@@ -16,7 +16,7 @@ const { Header } = Layout;
 const iconStyle = { fontSize: 18 };
 
 // ============ 项目特定配置 ============
-const DEFAULT_GITHUB = "https://github.com/rockbenben/subtitle-translator";
+const DEFAULT_GITHUB = "https://github.com/sahoriaj";
 
 // ============ 动态组件 ============
 
