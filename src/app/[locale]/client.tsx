@@ -23,7 +23,7 @@ const ClientPage = () => {
   const tSubtitle = useTranslations("subtitle");
   const t = useTranslations("common");
   const locale = useLocale();
-  const userGuideUrl = getDocUrl("guide/translation/subtitle-translator/index.html", locale);
+  const userGuideUrl = getDocUrl("https://toolhost.us.cc/en", locale);
   // 使用时间戳来强制重新渲染
   const [activeKey, setActiveKey] = useState("basic");
 
