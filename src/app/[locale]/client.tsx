@@ -23,7 +23,10 @@ const ClientPage = () => {
   const tSubtitle = useTranslations("subtitle");
   const t = useTranslations("common");
   const locale = useLocale();
-  const userGuideUrl = getDocUrl("/", locale);
+  // 1. Correct the syntax (lowercase 'const')
+// 2. Point to "/user-guide" instead of "/"
+const userGuideUrl = `/${locale}/user-guide`;
+
   // 使用时间戳来强制重新渲染
   const [activeKey, setActiveKey] = useState("basic");
 
