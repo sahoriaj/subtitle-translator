@@ -23,6 +23,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title,
     description,
+    robots: {
+      index: true,
+      follow: true,
+    },
+    other: {
+      'google-site-verification': 'your-verification-code-here', // Add your verification code
+    },
   };
 }
 
@@ -43,6 +50,28 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <html lang={locale} dir={direction} suppressHydrationWarning>
+      <head>
+        {/* Add structured data to clarify site purpose */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebApplication",
+              "name": "Subtitle Translator Tools",
+              "applicationCategory": "UtilityApplication",
+              "description": "Professional translation tools for subtitles, markdown, and JSON files. No login required.",
+              "url": "https://subtitletranslate.us.cc",
+              "operatingSystem": "Any",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+              }
+            }),
+          }}
+        />
+      </head>
       <body>
         <AntdRegistry>
           <NextIntlClientProvider messages={messages}>
