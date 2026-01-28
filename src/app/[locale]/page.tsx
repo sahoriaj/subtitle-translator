@@ -8,6 +8,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: `${t("title")} - Tools by AI`,
     description: t("description"),
+    openGraph: {
+      title: `${t("title")} - Tools by AI`,
+      description: t("description"),
+      type: 'website',
+      url: 'https://subtitletranslate.us.cc',
+    },
+    alternates: {
+      canonical: `https://subtitletranslate.us.cc/${locale}`,
+    },
   };
 }
 
