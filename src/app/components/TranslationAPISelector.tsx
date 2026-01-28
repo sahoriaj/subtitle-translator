@@ -27,6 +27,9 @@ const TranslationAPISelector = ({ translationMethod, setTranslationMethod, confi
           <Tooltip title={`${t("enter")} ${methodLabel} API Key`}>
             <Input.Password
               autoComplete="off"
+              data-form-type="other"
+              data-lpignore="true"
+              data-1p-ignore="true"
               placeholder={`API Key`}
               value={config.apiKey as string | undefined}
               onChange={(e) => handleConfigChange(translationMethod, "apiKey", e.target.value)}
