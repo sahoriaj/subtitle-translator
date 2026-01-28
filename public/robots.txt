@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Site Information
+Sitemap: https://subtitletranslate.us.cc/sitemap.xml
+
+# This is a translation utility tool website
+# No user authentication or login required
+# All password fields are for API keys only
