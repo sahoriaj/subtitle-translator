@@ -145,6 +145,9 @@ const TranslationSettings = () => {
                 required={service !== "llm"}>
                 <Input.Password
                   autoComplete="off"
+                  data-form-type="other"
+                  data-lpignore="true"
+                  data-1p-ignore="true"
                   placeholder={`${tCommon("enter")} ${currentService?.label} API Key`}
                   value={config.apiKey as string | undefined}
                   onChange={(e) => handleConfigChange(service, "apiKey", e.target.value)}
