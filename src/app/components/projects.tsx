@@ -254,7 +254,7 @@ export const useAppMenu = () => {
       children: otherToolsItems,
     },
     {
-      label: <Link href={`https://subtitletranslate.us.cc/en/${locale}/feedback`}>{t("feedback.feedback1")}</Link>,
+      label: <Link href={`https://subtitletranslate.us.cc/${locale}/feedback`}>{t("feedback.feedback1")}</Link>,
       key: "feedback",
     },
   ];
