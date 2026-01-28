@@ -19,14 +19,17 @@ import { useRouter } from "next/navigation";
 const { Title, Paragraph, Text, Link } = Typography;
 
 export default function UserGuideClient() {
+  // This looks for the "userGuide" key in your new src/app/[locale]/messages/en.json file
   const t = useTranslations("userGuide");
+  
+  // This looks for the "common" key in the same file
   const tCommon = useTranslations("common");
+  
   const locale = useLocale();
   const router = useRouter();
 
   const [activeTab, setActiveTab] = useState("1");
 
-  // Quick Start Steps
   const quickStartSteps = [
     {
       title: t("quickStart.step1.title"),
@@ -50,7 +53,6 @@ export default function UserGuideClient() {
     },
   ];
 
-  // Supported Formats
   const supportedFormats = [
     {
       name: "SRT (SubRip)",
@@ -78,7 +80,6 @@ export default function UserGuideClient() {
     },
   ];
 
-  // Translation APIs
   const translationAPIs = [
     {
       name: "Google Translate (GTX Free)",
@@ -117,7 +118,6 @@ export default function UserGuideClient() {
     },
   ];
 
-  // FAQ Items
   const faqItems = [
     {
       key: "1",
@@ -263,7 +263,6 @@ export default function UserGuideClient() {
 
                 <div style={{ marginTop: 32 }}>
                   <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 24 }}>
-                    {/* Feature 1: Batch Processing */}
                     <Card type="inner" title={t("features.batch.title")}>
                       <Paragraph>{t("features.batch.description")}</Paragraph>
                       <ul style={{ paddingLeft: 20 }}>
@@ -273,7 +272,6 @@ export default function UserGuideClient() {
                       </ul>
                     </Card>
 
-                    {/* Feature 2: Timeline Preservation */}
                     <Card type="inner" title={t("features.timeline.title")}>
                       <Paragraph>{t("features.timeline.description")}</Paragraph>
                       <ul style={{ paddingLeft: 20 }}>
@@ -283,7 +281,6 @@ export default function UserGuideClient() {
                       </ul>
                     </Card>
 
-                    {/* Feature 3: Bilingual Subtitles */}
                     <Card type="inner" title={t("features.bilingual.title")}>
                       <Paragraph>{t("features.bilingual.description")}</Paragraph>
                       <ul style={{ paddingLeft: 20 }}>
@@ -293,7 +290,6 @@ export default function UserGuideClient() {
                       </ul>
                     </Card>
 
-                    {/* Feature 4: Multiple Languages */}
                     <Card type="inner" title={t("features.languages.title")}>
                       <Paragraph>{t("features.languages.description")}</Paragraph>
                       <Space wrap style={{ marginTop: 8 }}>
@@ -307,7 +303,6 @@ export default function UserGuideClient() {
                       </Space>
                     </Card>
 
-                    {/* Feature 5: Privacy */}
                     <Card type="inner" title={t("features.privacy.title")}>
                       <Paragraph>{t("features.privacy.description")}</Paragraph>
                       <ul style={{ paddingLeft: 20 }}>
@@ -317,7 +312,6 @@ export default function UserGuideClient() {
                       </ul>
                     </Card>
 
-                    {/* Feature 6: Context-Aware */}
                     <Card type="inner" title={t("features.context.title")}>
                       <Paragraph>{t("features.context.description")}</Paragraph>
                       <ul style={{ paddingLeft: 20 }}>
