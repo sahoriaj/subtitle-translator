@@ -43,18 +43,18 @@ const TRANSLATIONS: any = {
       { title: "Bilingual Subtitles", desc: "Show original and translated text together." },
       { title: "Privacy First", desc: "Files processed locally. API keys stored in browser." }
     ],
-    formats: [
+    formatsList: [
       { name: "SRT", desc: "Most common format. Compatible with everything." },
       { name: "ASS", desc: "Advanced styling (fonts, colors, positioning)." },
       { name: "VTT", desc: "Web standard for HTML5 players." },
       { name: "LRC", desc: "Lyrics format for music." }
     ],
-    apis: [
+    apisList: [
       { name: "Google", desc: "Completely free, no key required.", tag: "Free" },
       { name: "DeepL Pro", desc: "Best accuracy, natural nuance.", tag: "Key Required" },
       { name: "OpenAI", desc: "Context-aware AI translation.", tag: "Key Required" }
     ],
-    faq: [
+    faqList: [
       { q: "Is it free?", a: "Yes! The tool is free. Premium APIs (DeepL) need your own key." },
       { q: "Is my data safe?", a: "Yes, all processing happens in your browser." }
     ],
@@ -83,18 +83,18 @@ const TRANSLATIONS: any = {
       { title: "双语字幕", desc: "同时显示原文和译文。" },
       { title: "隐私优先", desc: "本地处理文件，API 密钥存储在浏览器中。" }
     ],
-    formats: [
+    formatsList: [
       { name: "SRT", desc: "最通用的格式，兼容性最好。" },
       { name: "ASS", desc: "支持高级样式（字体、颜色、位置）。" },
       { name: "VTT", desc: "HTML5 播放器的网页标准。" },
       { name: "LRC", desc: "用于音乐的歌词格式。" }
     ],
-    apis: [
+    apisList: [
       { name: "Google", desc: "完全免费，无需密钥。", tag: "免费" },
       { name: "DeepL Pro", desc: "准确度最高，语气自然。", tag: "需要密钥" },
       { name: "OpenAI", desc: "支持上下文理解的 AI 翻译。", tag: "需要密钥" }
     ],
-    faq: [
+    faqList: [
       { q: "是免费的吗？", a: "是的！工具本身免费。高级 API (DeepL) 需要您自己的密钥。" },
       { q: "我的数据安全吗？", a: "安全，所有处理均在您的浏览器本地进行。" }
     ],
@@ -123,18 +123,18 @@ const TRANSLATIONS: any = {
       { title: "Subtítulos Bilingües", desc: "Muestra texto original y traducido." },
       { title: "Privacidad", desc: "Archivos procesados localmente." }
     ],
-    formats: [
+    formatsList: [
       { name: "SRT", desc: "Formato más común." },
       { name: "ASS", desc: "Estilos avanzados." },
       { name: "VTT", desc: "Estándar web." },
       { name: "LRC", desc: "Letras de canciones." }
     ],
-    apis: [
+    apisList: [
       { name: "Google", desc: "Gratis, sin clave.", tag: "Gratis" },
       { name: "DeepL Pro", desc: "Alta precisión.", tag: "Requiere Clave" },
       { name: "OpenAI", desc: "IA con contexto.", tag: "Requiere Clave" }
     ],
-    faq: [
+    faqList: [
       { q: "¿Es gratis?", a: "¡Sí! La herramienta es gratis." },
       { q: "¿Mis datos están seguros?", a: "Sí, todo se procesa en tu navegador." }
     ],
@@ -163,18 +163,18 @@ const TRANSLATIONS: any = {
       { title: "द्विभाषी सबटाइटल", desc: "मूल और अनुवादित पाठ एक साथ दिखाएं।" },
       { title: "गोपनीयता", desc: "फाइलें आपके ब्राउज़र में सुरक्षित रहती हैं।" }
     ],
-    formats: [
+    formatsList: [
       { name: "SRT", desc: "सबसे सामान्य प्रारूप।" },
       { name: "ASS", desc: "उन्नत स्टाइलिंग।" },
       { name: "VTT", desc: "वेब मानक।" },
       { name: "LRC", desc: "गीतों के बोल।" }
     ],
-    apis: [
+    apisList: [
       { name: "Google", desc: "पूरी तरह से मुफ़्त।", tag: "मुफ़्त" },
       { name: "DeepL Pro", desc: "सर्वोत्तम सटीकता।", tag: "की (Key) आवश्यक" },
       { name: "OpenAI", desc: "संदर्भ-जागरूक AI।", tag: "की (Key) आवश्यक" }
     ],
-    faq: [
+    faqList: [
       { q: "क्या यह मुफ़्त है?", a: "हाँ! टूल मुफ़्त है।" },
       { q: "क्या मेरा डेटा सुरक्षित है?", a: "हाँ, सब कुछ आपके ब्राउज़र में प्रोसेस होता है।" }
     ],
@@ -203,18 +203,18 @@ const TRANSLATIONS: any = {
       { title: "ترجمة ثنائية اللغة", desc: "إظهار النص الأصلي والمترجم معاً." },
       { title: "الخصوصية أولاً", desc: "تتم معالجة الملفات محلياً في متصفحك." }
     ],
-    formats: [
+    formatsList: [
       { name: "SRT", desc: "الصيغة الأكثر شيوعاً." },
       { name: "ASS", desc: "تنسيق متقدم." },
       { name: "VTT", desc: "معيار الويب." },
       { name: "LRC", desc: "كلمات الأغاني." }
     ],
-    apis: [
+    apisList: [
       { name: "Google", desc: "مجاني تماماً.", tag: "مجاني" },
       { name: "DeepL Pro", desc: "أفضل دقة.", tag: "يتطلب مفتاح" },
       { name: "OpenAI", desc: "ترجمة ذكية بالسياق.", tag: "يتطلب مفتاح" }
     ],
-    faq: [
+    faqList: [
       { q: "هل هو مجاني؟", a: "نعم! الأداة مجانية." },
       { q: "هل بياناتي آمنة؟", a: "نعم، تتم المعالجة في متصفحك." }
     ],
@@ -243,18 +243,18 @@ const TRANSLATIONS: any = {
       { title: "Legendas Bilíngues", desc: "Mostra texto original e traduzido." },
       { title: "Privacidade", desc: "Arquivos processados localmente." }
     ],
-    formats: [
+    formatsList: [
       { name: "SRT", desc: "Formato mais comum." },
       { name: "ASS", desc: "Estilo avançado." },
       { name: "VTT", desc: "Padrão web." },
       { name: "LRC", desc: "Letras de música." }
     ],
-    apis: [
+    apisList: [
       { name: "Google", desc: "Totalmente grátis.", tag: "Grátis" },
       { name: "DeepL Pro", desc: "Melhor precisão.", tag: "Requer Chave" },
       { name: "OpenAI", desc: "Tradução com contexto.", tag: "Requer Chave" }
     ],
-    faq: [
+    faqList: [
       { q: "É gratuito?", a: "Sim! A ferramenta é gratuita." },
       { q: "Meus dados estão seguros?", a: "Sim, tudo é processado no seu navegador." }
     ],
@@ -283,18 +283,18 @@ const TRANSLATIONS: any = {
       { title: "Bilingue", desc: "Affiche le texte original et traduit." },
       { title: "Confidentialité", desc: "Traitement local dans le navigateur." }
     ],
-    formats: [
+    formatsList: [
       { name: "SRT", desc: "Le plus courant." },
       { name: "ASS", desc: "Style avancé." },
       { name: "VTT", desc: "Standard Web." },
       { name: "LRC", desc: "Paroles." }
     ],
-    apis: [
+    apisList: [
       { name: "Google", desc: "Gratuit.", tag: "Gratuit" },
       { name: "DeepL Pro", desc: "Meilleure précision.", tag: "Clé Requise" },
       { name: "OpenAI", desc: "IA contextuelle.", tag: "Clé Requise" }
     ],
-    faq: [
+    faqList: [
       { q: "Est-ce gratuit ?", a: "Oui, l'outil est gratuit." },
       { q: "Mes données sont-elles sûres ?", a: "Oui, tout reste dans votre navigateur." }
     ],
@@ -323,18 +323,18 @@ const TRANSLATIONS: any = {
       { title: "Zweisprachig", desc: "Original und Übersetzung anzeigen." },
       { title: "Datenschutz", desc: "Lokale Verarbeitung im Browser." }
     ],
-    formats: [
+    formatsList: [
       { name: "SRT", desc: "Am häufigsten." },
       { name: "ASS", desc: "Erweitertes Styling." },
       { name: "VTT", desc: "Web-Standard." },
       { name: "LRC", desc: "Liedtexte." }
     ],
-    apis: [
+    apisList: [
       { name: "Google", desc: "Kostenlos.", tag: "Gratis" },
       { name: "DeepL Pro", desc: "Beste Genauigkeit.", tag: "Key Erforderlich" },
       { name: "OpenAI", desc: "Kontext-KI.", tag: "Key Erforderlich" }
     ],
-    faq: [
+    faqList: [
       { q: "Ist es kostenlos?", a: "Ja, das Tool ist kostenlos." },
       { q: "Sind meine Daten sicher?", a: "Ja, alles wird lokal verarbeitet." }
     ],
@@ -363,18 +363,18 @@ const TRANSLATIONS: any = {
       { title: "二言語字幕", desc: "原文と訳文を同時に表示。" },
       { title: "プライバシー", desc: "ブラウザ内でローカル処理されます。" }
     ],
-    formats: [
+    formatsList: [
       { name: "SRT", desc: "最も一般的。" },
       { name: "ASS", desc: "高度なスタイル対応。" },
       { name: "VTT", desc: "Web標準。" },
       { name: "LRC", desc: "歌詞ファイル。" }
     ],
-    apis: [
+    apisList: [
       { name: "Google", desc: "完全無料。", tag: "無料" },
       { name: "DeepL Pro", desc: "最高精度。", tag: "キー必須" },
       { name: "OpenAI", desc: "AI翻訳。", tag: "キー必須" }
     ],
-    faq: [
+    faqList: [
       { q: "無料ですか？", a: "はい、ツールは無料です。" },
       { q: "データは安全ですか？", a: "はい、すべてブラウザで処理されます。" }
     ],
@@ -403,18 +403,18 @@ const TRANSLATIONS: any = {
       { title: "이중 언어 자막", desc: "원본과 번역본 동시 표시." },
       { title: "개인정보 보호", desc: "브라우저에서 로컬로 처리." }
     ],
-    formats: [
+    formatsList: [
       { name: "SRT", desc: "가장 일반적임." },
       { name: "ASS", desc: "고급 스타일링." },
       { name: "VTT", desc: "웹 표준." },
       { name: "LRC", desc: "가사." }
     ],
-    apis: [
+    apisList: [
       { name: "Google", desc: "완전 무료.", tag: "무료" },
       { name: "DeepL Pro", desc: "최고의 정확도.", tag: "키 필요" },
       { name: "OpenAI", desc: "AI 번역.", tag: "키 필요" }
     ],
-    faq: [
+    faqList: [
       { q: "무료인가요?", a: "네, 도구는 무료입니다." },
       { q: "데이터는 안전한가요?", a: "네, 모두 브라우저에서 처리됩니다." }
     ],
@@ -443,18 +443,18 @@ const TRANSLATIONS: any = {
       { title: "Двуязычные", desc: "Оригинал и перевод вместе." },
       { title: "Приватность", desc: "Локальная обработка в браузере." }
     ],
-    formats: [
+    formatsList: [
       { name: "SRT", desc: "Самый популярный." },
       { name: "ASS", desc: "Расширенный стиль." },
       { name: "VTT", desc: "Веб-стандарт." },
       { name: "LRC", desc: "Текст песен." }
     ],
-    apis: [
+    apisList: [
       { name: "Google", desc: "Бесплатно.", tag: "Бесплатно" },
       { name: "DeepL Pro", desc: "Лучшая точность.", tag: "Нужен ключ" },
       { name: "OpenAI", desc: "ИИ перевод.", tag: "Нужен ключ" }
     ],
-    faq: [
+    faqList: [
       { q: "Это бесплатно?", a: "Да, инструмент бесплатен." },
       { q: "Мои данные в безопасности?", a: "Да, все обрабатывается локально." }
     ],
@@ -483,18 +483,18 @@ const TRANSLATIONS: any = {
       { title: "Phụ đề song ngữ", desc: "Hiển thị văn bản gốc và bản dịch." },
       { title: "Quyền riêng tư", desc: "Tệp được xử lý cục bộ trên trình duyệt." }
     ],
-    formats: [
+    formatsList: [
       { name: "SRT", desc: "Phổ biến nhất." },
       { name: "ASS", desc: "Kiểu dáng nâng cao." },
       { name: "VTT", desc: "Chuẩn Web." },
       { name: "LRC", desc: "Lời bài hát." }
     ],
-    apis: [
+    apisList: [
       { name: "Google", desc: "Hoàn toàn miễn phí.", tag: "Miễn phí" },
       { name: "DeepL Pro", desc: "Độ chính xác tốt nhất.", tag: "Cần Key" },
       { name: "OpenAI", desc: "Dịch thuật AI.", tag: "Cần Key" }
     ],
-    faq: [
+    faqList: [
       { q: "Có miễn phí không?", a: "Có! Công cụ này miễn phí." },
       { q: "Dữ liệu có an toàn không?", a: "Có, mọi xử lý đều diễn ra trên trình duyệt." }
     ],
@@ -523,18 +523,18 @@ const TRANSLATIONS: any = {
       { title: "คำบรรยายสองภาษา", desc: "แสดงข้อความต้นฉบับและคำแปล" },
       { title: "ความเป็นส่วนตัว", desc: "ไฟล์ถูกประมวลผลในเบราว์เซอร์ของคุณ" }
     ],
-    formats: [
+    formatsList: [
       { name: "SRT", desc: "รูปแบบทั่วไปที่สุด" },
       { name: "ASS", desc: "รูปแบบขั้นสูง" },
       { name: "VTT", desc: "มาตรฐานเว็บ" },
       { name: "LRC", desc: "เนื้อเพลง" }
     ],
-    apis: [
+    apisList: [
       { name: "Google", desc: "ฟรีโดยสิ้นเชิง", tag: "ฟรี" },
       { name: "DeepL Pro", desc: "ความแม่นยำสูงสุด", tag: "ต้องใช้คีย์" },
       { name: "OpenAI", desc: "การแปลด้วย AI", tag: "ต้องใช้คีย์" }
     ],
-    faq: [
+    faqList: [
       { q: "ฟรีหรือไม่?", a: "ใช่! เครื่องมือนี้ฟรี" },
       { q: "ข้อมูลปลอดภัยไหม?", a: "ใช่ การประมวลผลทั้งหมดเกิดขึ้นในเบราว์เซอร์" }
     ],
@@ -563,18 +563,18 @@ const TRANSLATIONS: any = {
       { title: "İki Dilli Altyazı", desc: "Orijinal ve çeviriyi birlikte gösterin." },
       { title: "Gizlilik", desc: "Dosyalar tarayıcıda işlenir." }
     ],
-    formats: [
+    formatsList: [
       { name: "SRT", desc: "En yaygın format." },
       { name: "ASS", desc: "Gelişmiş stil." },
       { name: "VTT", desc: "Web standardı." },
       { name: "LRC", desc: "Şarkı sözleri." }
     ],
-    apis: [
+    apisList: [
       { name: "Google", desc: "Tamamen ücretsiz.", tag: "Ücretsiz" },
       { name: "DeepL Pro", desc: "En iyi doğruluk.", tag: "Anahtar Gerekli" },
       { name: "OpenAI", desc: "YZ çevirisi.", tag: "Anahtar Gerekli" }
     ],
-    faq: [
+    faqList: [
       { q: "Ücretsiz mi?", a: "Evet! Araç ücretsizdir." },
       { q: "Verilerim güvende mi?", a: "Evet, her şey tarayıcınızda işlenir." }
     ],
@@ -603,18 +603,18 @@ const TRANSLATIONS: any = {
       { title: "雙語字幕", desc: "同時顯示原文和譯文。" },
       { title: "隱私優先", desc: "本地處理檔案，API 金鑰存儲在瀏覽器中。" }
     ],
-    formats: [
+    formatsList: [
       { name: "SRT", desc: "最通用的格式。" },
       { name: "ASS", desc: "支援進階樣式。" },
       { name: "VTT", desc: "網頁標準。" },
       { name: "LRC", desc: "歌詞格式。" }
     ],
-    apis: [
+    apisList: [
       { name: "Google", desc: "完全免費。", tag: "免費" },
       { name: "DeepL Pro", desc: "準確度最高。", tag: "需要金鑰" },
       { name: "OpenAI", desc: "AI 翻譯。", tag: "需要金鑰" }
     ],
-    faq: [
+    faqList: [
       { q: "是免費的嗎？", a: "是的！工具本身免費。" },
       { q: "我的資料安全嗎？", a: "安全，所有處理均在您的瀏覽器本地進行。" }
     ],
@@ -643,18 +643,18 @@ const TRANSLATIONS: any = {
       { title: "দ্বিভাষিক সাবটাইটেল", desc: "আসল এবং অনুবাদিত লেখা একসাথে।" },
       { title: "গোপনীয়তা", desc: "ফাইলগুলি আপনার ব্রাউজারে প্রসেস হয়।" }
     ],
-    formats: [
+    formatsList: [
       { name: "SRT", desc: "সবচেয়ে সাধারণ।" },
       { name: "ASS", desc: "উন্নত স্টাইলিং।" },
       { name: "VTT", desc: "ওয়েব স্ট্যান্ডার্ড।" },
       { name: "LRC", desc: "গানের লিরিক্স।" }
     ],
-    apis: [
+    apisList: [
       { name: "Google", desc: "সম্পূর্ণ বিনামূল্যে।", tag: "ফ্রি" },
       { name: "DeepL Pro", desc: "সেরা নির্ভুলতা।", tag: "কী প্রয়োজন" },
       { name: "OpenAI", desc: "AI অনুবাদ।", tag: "কী প্রয়োজন" }
     ],
-    faq: [
+    faqList: [
       { q: "এটা কি ফ্রি?", a: "হ্যাঁ! টুলটি ফ্রি।" },
       { q: "আমার তথ্য কি নিরাপদ?", a: "হ্যাঁ, সবকিছু আপনার ব্রাউজারে থাকে।" }
     ],
@@ -683,18 +683,18 @@ const TRANSLATIONS: any = {
       { title: "Subtitle Dwi-bahasa", desc: "Tampilkan teks asli dan terjemahan." },
       { title: "Privasi", desc: "File diproses secara lokal di browser." }
     ],
-    formats: [
+    formatsList: [
       { name: "SRT", desc: "Paling umum." },
       { name: "ASS", desc: "Gaya lanjutan." },
       { name: "VTT", desc: "Standar web." },
       { name: "LRC", desc: "Lirik lagu." }
     ],
-    apis: [
+    apisList: [
       { name: "Google", desc: "Gratis total.", tag: "Gratis" },
       { name: "DeepL Pro", desc: "Akurasi terbaik.", tag: "Perlu Kunci" },
       { name: "OpenAI", desc: "Terjemahan AI.", tag: "Perlu Kunci" }
     ],
-    faq: [
+    faqList: [
       { q: "Apakah ini gratis?", a: "Ya! Alat ini gratis." },
       { q: "Apakah data saya aman?", a: "Ya, semua diproses di browser Anda." }
     ],
@@ -723,18 +723,18 @@ const TRANSLATIONS: any = {
       { title: "Sottotitoli Bilingue", desc: "Mostra testo originale e tradotto." },
       { title: "Privacy", desc: "File elaborati localmente nel browser." }
     ],
-    formats: [
+    formatsList: [
       { name: "SRT", desc: "Più comune." },
       { name: "ASS", desc: "Stile avanzato." },
       { name: "VTT", desc: "Standard web." },
       { name: "LRC", desc: "Testi musicali." }
     ],
-    apis: [
+    apisList: [
       { name: "Google", desc: "Completamente gratis.", tag: "Gratis" },
       { name: "DeepL Pro", desc: "Migliore precisione.", tag: "Chiave Richiesta" },
       { name: "OpenAI", desc: "Traduzione AI.", tag: "Chiave Richiesta" }
     ],
-    faq: [
+    faqList: [
       { q: "È gratuito?", a: "Sì! Lo strumento è gratuito." },
       { q: "I miei dati sono sicuri?", a: "Sì, tutto viene elaborato nel browser." }
     ],
@@ -836,7 +836,7 @@ export default function UserGuideClient() {
         <div id="formats">
           <Card title={<Title level={3} style={{ margin: 0, fontSize: "1.5rem" }}><FileTextOutlined /> {t.formats}</Title>}>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 16 }}>
-              {t.formats.map((format: any, index: number) => (
+              {t.formatsList.map((format: any, index: number) => (
                 <Card key={index} type="inner" size="small">
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
                     <Text strong>{format.name}</Text>
@@ -853,7 +853,7 @@ export default function UserGuideClient() {
         <div id="apis">
           <Card title={<Title level={3} style={{ margin: 0, fontSize: "1.5rem" }}><ApiOutlined /> {t.apis}</Title>}>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 16 }}>
-              {t.apis.map((api: any, index: number) => (
+              {t.apisList.map((api: any, index: number) => (
                 <Card key={index} type="inner" size="small">
                   <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 8 }}>
                     <Text strong>{api.name}</Text>
@@ -871,7 +871,7 @@ export default function UserGuideClient() {
           <Card title={<Title level={3} style={{ margin: 0, fontSize: "1.5rem" }}><QuestionCircleOutlined /> {t.faq}</Title>}>
             <Collapse 
               ghost 
-              items={t.faq.map((f: any, i: number) => ({
+              items={t.faqList.map((f: any, i: number) => ({
                 key: i,
                 label: f.q,
                 children: <Paragraph>{f.a}</Paragraph>
