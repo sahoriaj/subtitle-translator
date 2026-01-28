@@ -5,13 +5,26 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
-// Simple metadata translations
+// Metadata titles for all 18 languages
 const METADATA_TITLES: Record<string, string> = {
   en: "Terms of Service",
   zh: "服务条款",
   es: "Términos de Servicio",
   hi: "सेवा की शर्तें",
-  // ... (Falls back to English for others to save space)
+  ar: "شروط الخدمة",
+  pt: "Termos de Serviço",
+  fr: "Conditions d'utilisation",
+  de: "Nutzungsbedingungen",
+  ja: "利用規約",
+  ko: "서비스 약관",
+  ru: "Условия использования",
+  vi: "Điều khoản dịch vụ",
+  th: "เงื่อนไขการให้บริการ",
+  tr: "Hizmet Şartları",
+  "zh-hant": "服務條款",
+  bn: "পরিষেবার শর্তাবলী",
+  id: "Syarat Layanan",
+  it: "Termini di Servizio"
 };
 
 export async function generateMetadata({ params }: Props) {
