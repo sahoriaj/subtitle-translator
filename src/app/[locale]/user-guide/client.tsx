@@ -5,7 +5,6 @@ import { Typography, Card, Space, Divider, Tabs, Collapse, Alert, Steps, Button,
 import {
   FileTextOutlined,
   ApiOutlined,
-  SettingOutlined,
   SafetyOutlined,
   QuestionCircleOutlined,
   RocketOutlined,
@@ -217,7 +216,7 @@ export default function UserGuideClient() {
                 <Steps
                   direction="vertical"
                   current={-1}
-                  items={quickStartSteps.map((step, index) => ({
+                  items={quickStartSteps.map((step) => ({
                     title: step.title,
                     description: step.description,
                     icon: step.icon,
