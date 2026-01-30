@@ -1,3 +1,6 @@
+import ClientPage from "./client";
+import { getTranslations } from "next-intl/server";
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "subtitle" });
@@ -9,10 +12,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       title: `${t("title")} - Tools by AI`,
       description: t("description"),
       type: 'website',
-      url: `https://subtitletranslate.us.cc/${locale}`, // ✅ Add locale
+      url: `https://subtitletranslate.us.cc/${locale}`,
     },
     alternates: {
-      canonical: `https://subtitletranslate.us.cc/${locale}`, // ✅ ADD THIS
+      canonical: `https://subtitletranslate.us.cc/${locale}`,
     },
   };
+}
+
+export default function Page() {
+  return <ClientPage />;
 }
