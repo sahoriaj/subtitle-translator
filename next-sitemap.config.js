@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || "https://tools.newzone.top",
+  siteUrl: process.env.SITE_URL || "https://subtitletranslate.us.cc",
   generateRobotsTxt: true, // 索引站点地图 robots.txt
   outDir: "out", // 站点地图输出目录
   // sitemapSize: 7000, // 大型站点可拆分成多个 sitemap 文件
